@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#beerGrid {
+    align-items: center; /* left and right */
+    justify-content: center; /* up and down */
+}

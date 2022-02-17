@@ -1,16 +1,23 @@
+
+
 .grid-container {
-    position:center;
-    justify-content: center;
-    text-align: center;
     display: grid;
+    align-items: center; /* left and right */
+    justify-content: center; /* up and down */
+    text-align: center;
     grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
-    grid-gap: 2rem;
-    border: 10px solid;
-    padding: 28.3%;
+    padding: 30%;
 }
 
 .item {
     border: 10px solid brown;
     border-radius: 20px;
-    padding: 33%;
+    padding: 3rem;
 }
+
+
+/*    justify-content: center;
+    text-align: center;
+    display: grid;
+    border: 10px solid;
+    align-content: center;*/
