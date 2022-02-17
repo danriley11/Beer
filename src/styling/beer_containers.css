@@ -1,0 +1,16 @@
+.grid-container {
+    position:center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
+    grid-gap: 2rem;
+    border: 10px solid;
+    padding: 28.3%;
+}
+
+.item {
+    border: 10px solid brown;
+    border-radius: 20px;
+    padding: 33%;
+}
